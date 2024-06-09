@@ -1,0 +1,22 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+}
+
+h2 {
+  background-color: #d7f9dd;
+}
+
+a.main-menu:hover, .home:hover {
+  font-size: large;
+  background-color: #d7f9dd;
+  border-radius: 100rem;
+}
+
+.home {
+  font-size: medium;
+}

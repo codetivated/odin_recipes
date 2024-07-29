@@ -1,5 +1,7 @@
+/* Common styles */
 * {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -7,16 +9,98 @@ h1 {
   font-size: 60px;
 }
 
-h2 {
+/* .recipe-title {
   background-color: #d7f9dd;
-}
+} */
 
 a.main-menu:hover, .home:hover {
   font-size: large;
-  background-color: #d7f9dd;
+  background-color: #2C2C2C;
+  color: white;
   border-radius: 100rem;
 }
 
 .home {
   font-size: medium;
+}
+
+body {
+  background-color: #E7E6E4;
+  margin: 0 50px; /* Combined left and right margins */
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 0;
+}
+
+.main-image {
+  background-image: url('/Users/melissaheying/dev/codetivated/code/the_odin_project/odin_recipes/images/main-image.png');
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  width: 35%;
+  padding: 200px 0;
+  margin-left: 350px;
+  border: 1px solid black;
+}
+
+.main-content {
+  margin: 150px auto 150px 0;
+  width: 25%;
+  padding: 20px 20px 20px 40px;
+}
+
+button {
+  background-color: #2C2C2C;
+  color: white;
+  padding: 10px;
+}
+
+
+.recipe-container {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.recipe-quotes {
+  text-align: center;
+  padding: 50px;
+}
+
+.part-one {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.part-two {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: center; /* Center the list items horizontally */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-menu {
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid black;
 }

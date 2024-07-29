@@ -8,7 +8,7 @@
 }
 
 .khao-soi-image {
-  background-image: url('/Users/melissaheying/dev/codetivated/code/the_odin_project/odin_recipes/images/khao-soi.jpg');
+  background-image: url('../images/khao-soi.jpg');
   background-size: cover; /* Ensure the image covers the entire background */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -20,7 +20,7 @@
 }
 
 .beef-pho-image {
-  background-image: url('/Users/melissaheying/dev/codetivated/code/the_odin_project/odin_recipes/images/beef-pho.jpg');
+  background-image: url('../images/beef-pho.jpg');
   background-size: cover; /* Ensure the image covers the entire background */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -32,7 +32,7 @@
 }
 
 .butter-chicken-image {
-  background-image: url('/Users/melissaheying/dev/codetivated/code/the_odin_project/odin_recipes/images/butter-chicken.jpg');
+  background-image: url('../images/butter-chicken.jpg');
   background-size: cover; /* Ensure the image covers the entire background */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
